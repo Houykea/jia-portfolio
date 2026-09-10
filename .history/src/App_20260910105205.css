@@ -182,18 +182,3 @@
     border-right-color: var(--border);
   }
 }
-
-.green {
-  color: green;
-  background-color: rgb(196, 157, 108);
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 12px;  ;
-}
-
-.gray {
-  color: gray;
-  background-color: bisque;
-  margin:100px
-
-}
