@@ -9,7 +9,7 @@ function App() {
     <div className='min-h-screen bg-gray-50 p-4 md:p-8'>
       {/* main column */}
       <main className="flex flex-col gap-6">
-          <Card className="text-center">
+          <Card>
             <SectionHeading title="Lim Houykea"/>
             <p className="text-gray-700 mb-4">
               My goal is to master a professional React project workflow from component development to version control, team collaboration, and functional product.
@@ -39,10 +39,14 @@ function App() {
         <Card>
           <SectionHeading title="About" />
           <p className="text-gray-500 text-sm">
-            My name is Lim Houykea. A third-year student majoring in Information and Communication Technology. I'm open for freelance job ^^
+            A short bit about yourself goes here.
           </p>
         </Card>
       </aside>
+
+
+      <SectionHeading title="Lim Houykea"/>
+      <StatusBadge isOpenToWork={true}/>
     </div>
   )
 }

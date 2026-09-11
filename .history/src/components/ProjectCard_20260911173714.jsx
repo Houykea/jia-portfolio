@@ -1,0 +1,23 @@
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+
+const ProjectCard = (props) => {
+  const title = props.title
+  const status = props.status
+  const link = props.link
+
+  return (
+    <Card className="">
+      <CardHeader>
+        <CardTitle className="text-gray-900">{title}</CardTitle>
+        <Badge className="bg-blue-500 text-white w-fit">{status}</Badge>
+      </CardHeader>
+      <CardContent>
+        <Button asChild className="hover:bg-blue-600 transition">
+          <a href={link}>View project</a>
+        </Button>
+      </CardContent>
+    </Card>
+  )
+}

@@ -36,7 +36,7 @@ function App() {
 
       {/* sidebar */}
       <aside>
-        <Card>
+        <Card className="m-20">
           <SectionHeading title="About" />
           <p className="text-gray-500 text-sm">
             My name is Lim Houykea. A third-year student majoring in Information and Communication Technology. I'm open for freelance job ^^
