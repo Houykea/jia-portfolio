@@ -1,0 +1,6 @@
+function SectionHeading({title}) {
+  return (
+    <>
+    </>
+  )
+}
