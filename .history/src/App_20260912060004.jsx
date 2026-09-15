@@ -1,5 +1,5 @@
 import './App.css'
-import StatusBadge from './StatusBadge'
+import StatusBadge from './components/StatusBadge'
 import SectionHeading from "./components/Headings";
 import Card from './components/Card';
 import ProjectCard from './components/ProjectCard';

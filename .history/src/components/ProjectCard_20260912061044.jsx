@@ -2,6 +2,7 @@ import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/componen
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
+/** @param {{ title: string, status: string, link: string }} props */
 const ProjectCard = (props) => {
   const title = props.title
   const status = props.status
